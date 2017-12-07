@@ -1,0 +1,44 @@
+body {
+    background: white;
+}
+
+header {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    background: chocolate;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0 20px;
+    align-items: center;
+    
+}
+
+.logo {
+    
+    height: 50px;
+    width: 50px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    background: url();
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+}
+
+button:hover {
+    border: 10px solid peachpuff;
+}
